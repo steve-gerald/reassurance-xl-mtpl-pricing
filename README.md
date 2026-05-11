@@ -1,7 +1,7 @@
 # Tarification d'un traité XL Motor Third Party Liability
 
-> Devoir de réassurance — portfolio actuariel (candidat Pricing Actuary).
-> Date : Mai 2026.
+> Devoir de réassurance  ( Pricing Actuary).
+> Date : decembre 2025.
 
 Ce projet propose une étude actuarielle complète de tarification d'un traité
 de réassurance non-proportionnelle en **Excess of Loss** sur un portefeuille
