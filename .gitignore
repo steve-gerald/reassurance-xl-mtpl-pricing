@@ -1,0 +1,59 @@
+# --- Données sources (confidentialité + taille) ------------------------------
+# Le PDF du cours et le classeur fourni par la cédante ne sont pas versionnés.
+Synthèse reassurance.pdf
+devoir de reassurance1.xlsx
+
+# --- CSV intermédiaires --------------------------------------------------------
+# Les CSV de outputs/ sont régénérables en exécutant les scripts dans l'ordre.
+# On garde seulement les livrables finaux (.docx, .pdf, .xlsx).
+outputs/*.csv
+
+# --- Fichiers de verrouillage LibreOffice et temporaires ----------------------
+outputs/.~lock.*#
+outputs/*.tmp
+outputs/preview_p-*.jpg
+
+# --- Python --------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Environnements virtuels ---------------------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE -----------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Configuration Claude / Cowork --------------------------------------------
+CLAUDE.md
